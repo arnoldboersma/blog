@@ -1,4 +1,4 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Arnold Boersma"
-theme = "mediumish-gohugo-theme"
+theme = "ananke"
