@@ -9,10 +9,10 @@ enableEmoji = true
 #googleAnalytics = "UA-10446096-1"
 
 [params]
-title = "I'm Arnold Boersma"
+title = "Arnold Boersma"
 author = "Arnold Boersma"
 profilePicture = "images/profile.jpg"
-keywords = ""
+keywords = "Azure"
 favicon = "favicons/"
 customCss = []
 mainSections = ["posts"]
