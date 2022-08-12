@@ -9,9 +9,27 @@ tags: ["Azure", "Container Apps", ]
 ---
 
 Azure Container Apps went [General Available](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-container-apps-general-availability/ba-p/3416885) in May of 2022 and offers a great way to build cloud native apps with serverless containers.
-Azure container apps is a managed service built on Kubernetes.
 
-### Case
+Azure Container Apps behind the scenes is based on Kubernetes, it has been set up and is maintained by Microsoft. The service is setup in a `serverless` way where you only have to worry about deploying your apps and not have to worry about maintanance.
+
+### Features
+A couple of features that can be used are:
+
+- Run Multiple container revisions
+- Autoscale
+- HTTPS ingress
+- Internal ingress and service discovery
+- Run containers from any registry
+- DAPR support
+
+For a complete list of features you can visit the [docs](https://docs.microsoft.com/en-us/azure/container-apps/overview).
+
+In the getting started example the following features are used:
+- HTTPS ingress
+- Internal ingress and service discovery
+- Run containers from any registry
+
+### Getting started case
 - Deployment of an webapplication that is public available.
 - Deployment of an API that is only available inside the Container Apps Network.
 
@@ -149,6 +167,6 @@ The first request to the site could be slow as the [default](https://docs.micros
 
 ![](images/containerappsresult.png)
 
-# Resources
+### Resources
 - [Quickstart: Deploy your first container app](https://docs.microsoft.com/en-us/azure/container-apps/get-started?tabs=bash)
 - [Source code on Github](https://github.com/arnoldboersma/azure-container-apps-demo)
